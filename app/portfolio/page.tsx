@@ -20,13 +20,17 @@ export default function PortfolioPage() {
               key={index} 
               className="group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
             >
-              {/* 图片区域 - 暂时用灰色背景代替真实图片 */}
+              {/* 图片区域 */}
               <div className="aspect-video bg-gray-200 relative overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center text-gray-400 font-medium">
-                  项目截图 16:9
-                </div>
-                {/* 悬浮时的遮罩层 */}
-                <div className="absolute inset-0 bg-blue-600/0 group-hover:bg-blue-600/10 transition-colors duration-300"></div>
+                {/* 新增下面这个 img 标签 */}
+                <img 
+                  src={project.image} 
+                  alt={project.title} 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                
+                {/* 悬浮时的遮罩层保持不变 */}
+                <div className="absolute inset-0 bg-blue-600/0 group-hover:bg-blue-600/5 transition-colors duration-300"></div>
               </div>
 
               {/* 内容区域 */}
