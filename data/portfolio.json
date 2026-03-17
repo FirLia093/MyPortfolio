@@ -1,0 +1,10 @@
+[
+  {
+    "title": "个人学术主页项目",
+    "description": "基于 Next.js 16 和 Tailwind CSS 开发的高性能个人展示网站，采用响应式设计，支持数据与 UI 分离。",
+    "image": "/images/portfolio-site.jpg",
+    "tags": ["前端开发"],
+    "github": "https://github.com/yourusername/my-portfolio",
+    "demo": "https://your-site.com"
+  }
+]
