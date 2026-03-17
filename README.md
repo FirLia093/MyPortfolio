@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Personal Portfolio
 
-## Getting Started
+这是我的个人主页项目，用于展示我的教育经历、研究方向以及个人项目成果。
 
-First, run the development server:
+**预览地址：** [https://firlia.me](https://firlia.me)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ 技术栈
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+这个网站是基于现代 Web 技术栈构建的，追求极致的加载速度和响应式体验：
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **框架**: [Next.js 16](https://nextjs.org/) (App Router)
+- **样式**: [Tailwind CSS](https://tailwindcss.com/) (极简主义设计)
+- **语言**: [TypeScript](https://www.typescriptlang.org/)
+- **部署**: [Vercel](https://vercel.com/)
+- **数据管理**: JSON 驱动 (实现数据与 UI 完全分离)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 项目亮点
 
-## Learn More
+- **响应式设计**: 完美适配手机、平板和桌面端。
+- **动态性能**: 利用 Next.js 的静态导出功能，实现秒开体验。
+- **SEO 优化**: 针对搜索引擎进行了元数据优化。
+- **模块化代码**: 组件化开发，方便后续扩展。
 
-To learn more about Next.js, take a look at the following resources:
+## 目录结构
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `/app`: 页面路由与布局
+- `/components`: 可复用的 UI 组件
+- `/data`: 所有的文字内容（JSON 格式，易于维护）
+- `/public`: 静态资源（头像、项目截图、PDF 简历）
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 如何在本地运行
 
-## Deploy on Vercel
+如果你想在本地查看代码运行效果：
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. 克隆仓库:
+   ```bash
+   git clone https://github.com/FirLia093/MyPortfolio.git
